@@ -3,9 +3,19 @@ margin: 0;
 padding: 0;
 }
 
-#target-div {
-  min-height: 100vh;
-  width: 100%;
-  background: #ddd;
-  padding:1em;
+.content-container {
+  background-color: rgb(220, 217, 223);
+  border: solid black 5px;
+  margin: 25px;
+  padding: 25px;
+}
+h1 {
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+h1, p, ul {
+  font-family: 'Courier New', Courier, monospace;
+}
+ul{
+  margin-top: 10px;
 }
